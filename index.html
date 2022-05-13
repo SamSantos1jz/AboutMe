@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Samuel Santos</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      
+      google.charts.load('current', {'packages':['corechart']});
+
+      
+      google.charts.setOnLoadCallback(drawChart);
+
+     
+      function drawChart() {
+
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['JAVA', 15],
+		  ['C#', 10],
+          ['Phyton', 3],
+          ['HTML', 5],
+          ['CSS', 5],
+          ['JAVASCRIPT', 2],
+		  ['PHP', 2],
+		  ['Banco de Dados', 3]
+        ]);
+
+        
+        var options = {'width':'100%',
+                       'height':650};
+
+        
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+<body>
+	<div class="hero">
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Samuel Santos</h1>
+			
+			
+		</div>
+	</div>
+	<section class="about">
+		<div class="main">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<p>My name is Samuel I always liked technology, but i only really went deeper into programming 2019 when I went into SENAI and did JAVA programming. In 2020 I did ETEC where I studied systems development finishing in 2021, 2022 I joined the university of Santa Cecilia in systems analysis and development.</p>
+				<p>Meu nome é Samuel eu sempre gostei de tecnologia, mas só fui mais fundo na programação de 2019 quando entrei no SENAI e fiz programação JAVA. Em 2020 fiz a ETEC onde estudei desenvolvimento de sistemas finalizando em 2021, 2022 entrei para a Universidade de Santa Cecília em análise e desenvolvimento de sistemas.</p>
+				
+			</div>
+		</div>
+	</section>
+
+	
+	<div class="service">
+		<div class="title">
+			<h2>Conhecimentos</h2>
+		</div>
+		<div id="chart_div"></div>
+	</div>
+	
+	<footer>
+		<p>Samuel Santos</p>
+		<p>Contatos:</p>
+		<div class="social">
+			<a href="https://github.com/SamSantos1jz"><i class="fab fa-github"></i></a>
+			<a href="https://www.instagram.com/sam_santos1jz/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/samuel-santos-b33a61196/"><i class="fab fa-linkedin"></i></a>
+		</div>`
+		<br>
+		<hr id="hrfooter" style="width: 100%;">
+		<p class="end">By Samuel Santos</p>
+	</footer>
+</body>
+</html>
