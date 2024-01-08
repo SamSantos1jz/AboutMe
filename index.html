@@ -1,87 +1,28 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Samuel Santos</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-
-      
-      google.charts.load('current', {'packages':['corechart']});
-
-      
-      google.charts.setOnLoadCallback(drawChart);
-
-     
-      function drawChart() {
-
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Topping');
-        data.addColumn('number', 'Slices');
-        data.addRows([
-          ['JAVA', 15],
-		  ['C#', 10],
-          ['Phyton', 3],
-          ['HTML', 5],
-          ['CSS', 5],
-          ['JAVASCRIPT', 2],
-		  ['PHP', 2],
-		  ['Banco de Dados', 3]
-        ]);
-
-        
-        var options = {'width':'100%',
-                       'height':650};
-
-        
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
-      }
-    </script>
-</head>
-<body>
-	<div class="hero">
-		<div class="content">
-			<h4>Hello, my name is</h4>
-			<h1>Samuel Santos</h1>
-			
-			
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+         <title>Dev.Sam</title>
+    </head>
+    <body>
+        <canvas style="position: fixed; top: 0; left: 0;">
+		</canvas>
+		<div class="div-title">
+			<h1 class="title" >SAMUEL SANTOS</h1>
 		</div>
-	</div>
-	<section class="about">
-		<div class="main">
-			<div class="about-text">
-				<h2>About Me</h2>
-				<p>My name is Samuel I always liked technology, but i only really went deeper into programming 2019 when I went into SENAI and did JAVA programming. In 2020 I did ETEC where I studied systems development finishing in 2021, 2022 I joined the university of Santa Cecilia in systems analysis and development.</p>
-				<p>Meu nome é Samuel eu sempre gostei de tecnologia, mas só fui mais fundo na programação de 2019 quando entrei no SENAI e fiz programação JAVA. Em 2020 fiz a ETEC onde estudei desenvolvimento de sistemas finalizando em 2021, 2022 entrei para a Universidade de Santa Cecília em análise e desenvolvimento de sistemas.</p>
-				
-			</div>
-		</div>
-	</section>
+        <div class="contact">
+            <a href="https://www.linkedin.com/in/samuel-santos-b33a61196/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg></a>
+            <a href="https://github.com/SamSantos1jz"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg></a>
+        </div>
+        <div>
+            <h1 class="tilte-project">Projetos</h1>
+            <img src="" alt="">
+        </div>
 
-	
-	<div class="service">
-		<div class="title">
-			<h2>Conhecimentos</h2>
-		</div>
-		<div id="chart_div"></div>
-	</div>
-	
-	<footer>
-		<p>Samuel Santos</p>
-		<p>Contatos:</p>
-		<div class="social">
-			<a href="https://github.com/SamSantos1jz"><i class="fab fa-github"></i></a>
-			<a href="https://www.instagram.com/sam_santos1jz/"><i class="fab fa-instagram"></i></a>
-			<a href="https://www.linkedin.com/in/samuel-santos-b33a61196/"><i class="fab fa-linkedin"></i></a>
-		</div>`
-		<br>
-		<hr id="hrfooter" style="width: 100%;">
-		<p class="end">By Samuel Santos</p>
-	</footer>
-</body>
+        <script type="text/javascript" src="./js/script.js"></script>
+    </body>
 </html>
