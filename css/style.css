@@ -33,17 +33,15 @@ a:hover{
     background-color: rgb(113, 216, 136);
 }
 .service {
-    position: absolute;
-    top: 70%;
-    margin-left: 13em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
     border: solid 2px white;
     border-radius: 8px ;
-    justify-content: space-between;
     background-color: gray;
 }
-.tecnologias { 
-    width: 100%;
-}
+
 .tecnologias svg{
     padding: 20px;
 }
@@ -52,7 +50,7 @@ a:hover{
     height: 5em;
 }
 .sobre-mim { 
-    position: absolute;
+    position: relative;
     top: 100%;
     color: white;
     left: 4em;
