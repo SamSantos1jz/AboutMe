@@ -58,8 +58,7 @@
 }
 
 .contact a:hover {
-    
-    background-image: linear-gradient(#e83636, #e29090, #802424);
+    background-image: linear-gradient(20deg,#ffffff, #e05555, #ffffff97);
 }
 
 .tecnologias { 
